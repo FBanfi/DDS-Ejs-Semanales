@@ -1,0 +1,13 @@
+Decidí hacer la trama como un enum por por ahora no tiene mucho comportamiento o complejidad, encima nos dan todos los tipos que hay asique como que me parecia mas simple por ahora modelarla asi
+y agregarla como un atributo al enum del material con el cual se vincula. Me parecio la opción más simple.
+
+El requerimiento de que el tipo se cargue primero que el resto de las cosas, creo que se cumple a través del orden de "Creación/Configuración (instanciación y inicializacion)" por constructor
+
+Para los borradores, hice que haya una lista de prendas dentro de la clase usuario para que cuando un usuario crea una prenda sin color secundario o con trama lisa que es la que esta por defecto
+, pueda guardarla ahí y si despues quiere agregarle un color secundario, la saca de ahi y le setea el color secundario o la nueva trama (porque son las dos unicas cosas opcionales)
+
+La trama en el enum del material por defecto si es null, va a ser hardcodeada en LISA
+
+El requerimiento de solo guardar prendas si son validas ya se cumple gracias a las validaciones en el constructor
+
+El bonus lo intente pensar pero lo que se me ocurria me parecía muy feo o demasiado complejo asique quiero ver como lo plantean en la clase
