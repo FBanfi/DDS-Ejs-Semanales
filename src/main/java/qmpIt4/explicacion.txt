@@ -1,0 +1,8 @@
+Cree una clase que se llama "GeneradorDeSugerencias" que nos devuelva un atuendo con las prendas que se sugieren, las cuales van a estar en una lista
+dentro del atuendo. Realice una especie de templade method con las subclases de "GeneradorDeSugerencias" para encontrar las prendas que
+van a formar el atuendo de acuerdo al clima. Me pareció que la forma de encontrar las prendas dependiendo del clima, se iba a hacer teniendo
+un comportamiento masomenos similar y por eso genere el template method porque tiene herencia y comparten un comportamiento base y otras cosas
+en la subclase.
+De todas formas, no me parece que esta sea una buena solucion y no me gusta, me parece que capaz hay otra forma mas simple de hacer las cosas.
+Y ademas, deje incompleto la forma en la cual eligo una prenda dependiendo del clima, no c como se podria realizar eso. Pero bueno supongo que
+estas dudas se me van a ir despues de la clase.
