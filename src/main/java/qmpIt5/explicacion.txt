@@ -1,0 +1,8 @@
+Trate de aplicar el concepto de reificar comportamiento, generando la abstracción Recomendación
+que use polimorficamente dos objetos. No se si está bien justificarlo de esa manera.
+También me quedan dudas conrespecto a la hora de hacer el último requerimiento que decía que
+se quiere poder ver las recomendaciones anteriormente aceptadas. Lo hice como una lista de recomendaciones
+aceptadas pero no se si hay una forma mejor de representar ese requerimiento.
+
+Por último, estaba tratando de pensar como sería hacer esto mismo pero a través de herencia.
+En el apunte mencionan que no estaría bien hacerlo a través de herencia pero no entiendo porque.
